@@ -1,10 +1,14 @@
+<p></p>
+
 <script type="module">
-    document.write("Should be 'ENV':\n")
-    document.write(process.env.VAR)
-    document.write("<br><br>")
-    document.write("Should be 'WOO':\n")
-    document.write(process.env.TEST)
-    document.write("<br><br>")
-    document.write("Should be parcel-implicit-env-test: \n")
-    document.write(process.env.npm_package_name)
+    const p = document.querySelector("p")
+
+    p.innerHTML += ("Should be 'ENV':\n")
+    p.innerHTML += (process.env.VAR)
+    p.innerHTML += ("<br><br>")
+    p.innerHTML += ("Should be 'WOO':\n")
+    p.innerHTML += (process.env.TEST)
+    p.innerHTML += ("<br><br>")
+    p.innerHTML += ("Should be parcel-implicit-env-test: \n")
+    p.innerHTML += (process.env.npm_package_name)
 </script>
