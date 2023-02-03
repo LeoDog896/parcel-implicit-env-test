@@ -5,6 +5,7 @@
 	"name": "parcel-implicit-env-test",
 	"scripts": {
 		"parcel": "TEST=WOO parcel index.html",
+		"parcel:build": "TEST=WOO parcel build index.html",
 		"node": "TEST=WOO node index.js"
 	}
 }
