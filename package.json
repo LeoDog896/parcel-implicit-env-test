@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"parcel": "^2.8.3"
+	},
+	"scripts": {
+		"parcel": "parcel index.html",
+		"node": "node index.js"
+	}
+}
