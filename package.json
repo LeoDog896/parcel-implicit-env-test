@@ -6,6 +6,7 @@
 	"scripts": {
 		"parcel": "TEST=WOO parcel index.html",
 		"parcel:build": "TEST=WOO parcel build index.html",
-		"node": "TEST=WOO node index.js"
+		"node": "TEST=WOO node index.js",
+		"python": "TEST=WOO python3 index.py"
 	}
 }
