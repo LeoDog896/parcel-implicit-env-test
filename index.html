@@ -1,3 +1,7 @@
 <script type="module">
-    
+    document.write("Should be 'ENV':\n")
+    document.write(process.env.VAR)
+    document.write("<br><br>")
+    document.write("Should be parcel-implicit-env-test: \n")
+    document.write(process.env.npm_package_name)
 </script>

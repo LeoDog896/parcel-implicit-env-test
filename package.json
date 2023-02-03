@@ -2,6 +2,7 @@
 	"dependencies": {
 		"parcel": "^2.8.3"
 	},
+	"name": "parcel-implicit-env-test",
 	"scripts": {
 		"parcel": "parcel index.html",
 		"node": "node index.js"

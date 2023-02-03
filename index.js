@@ -1,0 +1,5 @@
+console.log("Shouldn't be 'ENV' (node):")
+console.log(process.env.VAR)
+console.log()
+console.log("Should be parcel-implicit-env-test:")
+console.log(process.env.npm_package_name)
